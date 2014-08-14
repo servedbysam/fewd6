@@ -1,0 +1,23 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	border-left: 6px solid #ddd;
+	padding: 70px 50px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	color: #A00;
+}
+h1, h1>a {
+	color: #D00;
+	font-weight: 100;
+	font-size: 175%;
+}
+nav>a {
+	color: #eee;
+	font-size: 50px
+	margin-right: 20px;
+	border-bottom: 2px solid #eee;
+}
