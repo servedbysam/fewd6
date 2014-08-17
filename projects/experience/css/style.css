@@ -1,0 +1,32 @@
+body {
+	font-family: 'Bitter', serif;
+}
+.location {
+	padding-left: 40px;
+}
+nav {
+	color: #708090;
+	text-align: center
+}
+a {
+	color: #009999;
+	text-decoration: none;
+}
+a:hover {
+	color: #E6E6FA;
+}
+ul {
+	list-style-type: square;
+}
+strong {
+	font-weight: bolder;
+	color: #708090;
+}
+hr {
+	border: 1px solid #9999FF;
+	clear: both;
+}
+h1 {
+	font-weight: lighter;
+	color: #9999FF;
+}
