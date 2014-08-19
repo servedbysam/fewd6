@@ -1,11 +1,24 @@
 body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
+	/* Can I get rid of the borders/padding? it looks like in the new picture that they're not a thing anymore. */
 	border-left: 6px solid #ddd;
 	padding: 70px 50px;
 }
 a{
 	text-decoration: none;
+}
+.top-nav {
+	font-size: 20px;
+	margin-right: 20px;
+	background-color: black;
+	/* I think the enormous borders/padding are inherited from the body, but i don't understand why i can't change the link color */
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+/* dude i made a note */
+link.top-nav {
+	color: white;
 }
 a:hover {
 	color: #A00;
@@ -14,10 +27,4 @@ h1, h1>a {
 	color: #D00;
 	font-weight: 100;
 	font-size: 175%;
-}
-header>nav>a {
-	color: #eee;
-	font-size: 50px
-	margin-right: 20px;
-	border-bottom: 2px solid #eee;
 }
