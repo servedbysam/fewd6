@@ -1,0 +1,76 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+      }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body{
+	font-family: 'Lato', sans-serif;
+	}
+
+.top-header {
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	border-bottom: 3px solid black;
+	height: 44px;
+	}
+
+.top-nav {
+	text-align: right;
+	}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	padding-top: 5px;
+	}
+
+.top-nav a {
+	color: #000;
+	text-decoration: none;
+	line-height: 44px;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: inline-block;
+	}
+
+.top-nav a:hover {
+	color: white;
+	background-color: black;
+		}
+
+/* Ryan, you said this was a good idea, but I can't figure out how to center the images in their "buckets." What would be the best way to do this? */
+
+.header-weddings {
+	width: 25%;
+	height: 800px;
+	float: left;
+	background-color: black;
+	}
+
+.header-headshots {
+	width: 25%;
+	height: 800px;
+	float: left;
+	background-color: black;
+	}
+
+.header-music {
+	width: 25%;
+	height: 800px;
+	float: left;
+	background-color: black;
+	}
+
+.header-everything {
+	width: 25%;
+	height: 800px;
+	float: left;
+	background-color: black;
+	}
