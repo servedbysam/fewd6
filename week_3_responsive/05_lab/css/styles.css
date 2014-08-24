@@ -74,3 +74,50 @@ body{
 	float: left;
 	background-color: black;
 	}
+
+.about {
+	width: 1000px;
+	margin: 0 auto;
+	}
+
+.about > h2 {
+	font-weight: bold;
+	}
+
+.about-columns {
+	width: 500px;
+	float: left;
+	position: relative;
+	}
+
+.ryan-info {
+		float: right;
+	}
+
+.headshot img {
+	width: 500px;
+	position: absolute;
+	}
+
+.about1 {
+	z-index: 1;
+	}
+
+.about1:hover {
+	opacity: 0;
+	}
+
+.about2 {
+	z-index: 0;
+	}
+
+ul {
+	list-style-type: none;
+	}
+
+meter {
+	border: 1px solid black;
+	background: none;
+	background-color: white;
+	background-image: black;
+	}
