@@ -1,4 +1,4 @@
-var html = '';
+var postsHtml = '';
 
 //but what is an "unexpected end of input"!? ^^
 
@@ -48,8 +48,8 @@ function generatePost(posts) {
 	*/
 
 for (var index = 0; index < posts.length; i++) {
-	html += generatePost(posts[i]);
+	postsHtml += generatePost(posts[i]);
 	}
 
-document.getElementById('posts').innerHTML = html;
+$('#posts').html(postsHtml);
 
