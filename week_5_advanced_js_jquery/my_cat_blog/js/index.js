@@ -1,3 +1,7 @@
+var html = '';
+
+//but what is an "unexpected end of input"!? ^^
+
 var posts = [
 	{
 		image: 'http://placekitten.com/g/200/200',
@@ -18,15 +22,34 @@ var posts = [
 	}
 ];
 
-function generateBlogPosts(posts) {
+function generatePost(posts) {
+	var fragment = '';
+
+	//make HTML
+
+	fragment += '<div class="post clearfix">';
+	fragment += '<img class="post-image float-left" src="' + posts.image + '">';
+	fragment += '<div class="post-content float-left">';
+	fragment += '<h3 class="post-title">' + posts.title + '</h3>';
+	fragment += '<p>';
+	fragment += posts.snippet;
+	fragment += '</p>';
+	fragment += '</div>';
+	fragment += '</div>';
+
+	return fragment;
+
+	/*
 	var ret = '<h3>title</h3>';
 	ret += '<p>';
 	ret += 'snippet';
 	ret += 'image';
 	}
+	*/
 
-for (var i = 0; i < posts.length; i++) {
-	html += generateBlogPosts(posts[i]);
+for (var index = 0; index < posts.length; i++) {
+	html += generatePost(posts[i]);
 	}
 
-document.getElementById('posts').innerHTML = posts;
+document.getElementById('posts').innerHTML = html;
+
