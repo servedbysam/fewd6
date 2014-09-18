@@ -39,6 +39,8 @@ function generatePost(posts) {
 
 	return fragment;
 
+}
+
 	/*
 	var ret = '<h3>title</h3>';
 	ret += '<p>';
@@ -47,9 +49,9 @@ function generatePost(posts) {
 	}
 	*/
 
-for (var index = 0; index < posts.length; i++) {
-	postsHtml += generatePost(posts[i]);
-	}
+for (var index = 0; index < posts.length; index++) {
+	postsHtml += generatePost(posts[index]);
+}
 
 $('#posts').html(postsHtml);
 
