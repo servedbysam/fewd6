@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GA Application Form</title>
+		<link href="application_form/css/index.css" rel="stylesheet">
+	</head>
+	<body>
+		<form action="register.php" method="post" enctype="multipart/form-data">
+			<h2>Your Contact Information</h2>
+
+			<div class="pick-one">
+			<label>Your Name 
+			</div>
+			<div class="info-entry">
+			<input type="text" name="firstname" placeholder="First"><input type="text" name="lastname" placeholder="Last">
+			</label>
+			</div>
+
+			<div class="pick-one">
+			<label>Phone Number 
+			</div>
+			<div class="info-entry">
+			<input type="text" name="phone1" placeholder="555"> - <input type="text" name="phone2" placeholder="555"> - <input type="text" name="phone3" placeholder="5555">
+			</label>
+			</div>
+
+			<div class="pick-one">
+			<label>Address 
+			</div>
+			<div class="info-entry">
+			<div class="address"><input type="text" name="address1" placeholder="Address Line 1">
+			<input type="text" name="address2" placeholder="Address Line 2">
+			<input type="text" name="address_city" placeholder="City"><input type="text" name="address_state" placeholder="State"><input type="text" name="address_zip" placeholder="Zip Code"></div>
+			</label>
+			</div>
+
+			<h2>Skills &amp; Interests</h2>
+
+			<div class="pick-one">
+			<label>Course 
+			</div>
+			<div class="info-entry">
+				<select>
+					<option value="" disable selected>Select One</option>
+					<optgroup label="Web Development">
+						<option value="fewd">Front-end</option>
+						<option value="bewd">Back-end</option>
+					</optgroup>
+					<optgroup label="Design">
+						<option value="visual">Visual Design</option>
+						<option value="ux">User Experience</option>
+					</optgroup>
+				</select>
+				</label>
+				</div>
+
+			<div class="pick-one">
+			<label>Past Experience 
+			</div>
+			<div class="info-entry">
+			<textarea name="experience" cols="50" rows="10"></textarea>
+			</label>
+			</div>
+
+			<h2>Anything Else?</h2>
+
+			<div class="pick-one">
+			<label>Referral 
+			</div>
+			<div class="info-entry">
+				<select>
+					<option value="none">None</option>
+					<option value="friend">Friend</option>
+					<option value="instructor">Instructor</option>
+					<option value="online">Online</option>
+				</select>
+			</label>
+			</div>
+
+			<div class="pick-one">
+			<label>Comments 
+			</div>
+			<div class="info-entry">
+			<textarea name="comments" cols="50" rows="10"></textarea>
+			</label>
+			</div>
+
+			<div>
+			<button>Save Draft</button>
+			<button>Submit</button>
+			</div>
+		</form>
+	</body>
+</html>
