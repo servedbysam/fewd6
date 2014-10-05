@@ -1,0 +1,39 @@
+Add to list:
+	1. User enters text into input
+	2. User clicks on "add to list"
+	3. Get value from input 
+	4. Generate list item HTML with value from input
+	5. Put the list item in the list
+	6. It shows up
+
+Clear list:
+	1. User clicks on clear list
+	2. Empty the list
+
+Remove a single item:
+	1. User clicks on item's "remove" link
+	2. Get parent list item
+	3. Remove parent list item
+
+Complete list item
+	1. User clicks on list item
+	2. Add a class with that shit on it
+	3. Find how many list items aren't complete
+	4. Update "to do" number at bottom of page
+
+Clear completed
+	1. User clicks on clear completed
+	2. Removes items with completed class
+
+Edit list item
+	1. User clicks on "edit" link
+	2. Get parent list item
+	3. Get text from list item
+	4. Empty list item
+	5. Insert editor form
+	6. Set the value of editor input to text from list item
+	7. When input loses focus
+		a. Generate list item HTML from input
+		b. Replace list item form with generated HTML
+
+
